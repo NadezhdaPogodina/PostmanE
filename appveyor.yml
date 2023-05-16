@@ -1,11 +1,10 @@
-image: Ubuntu  # образ для сборки
-
-stack: jdk 11  # версия JDK
+image: Ubuntu1804  # образ для сборки
 
 branches:
   only:
     - master  # ветка git
- 
 
-  
-        run: ./gradlew test
+build: off  # будем использовать свой скрипт сборки
+
+build_script:
+  - ./gradlew build
