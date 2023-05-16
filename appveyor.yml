@@ -5,7 +5,7 @@ stack: jdk 11  # версия JDK
 branches:
   only:
     - master  # ветка git
-  build:
+ 
 
       - name: Build with Gradle
         run: ./gradlew test
