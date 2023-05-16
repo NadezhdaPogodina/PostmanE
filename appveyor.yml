@@ -9,7 +9,7 @@ branches:
 build: off  # будем использовать свой скрипт сборки
 install:
 - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+        chmod +x gradlew
 
 
 
