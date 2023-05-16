@@ -8,4 +8,4 @@ build: off  # будем использовать свой скрипт сбор
 
 build_script:
   
- run: ./gradlew test
+ - ./gradlew test
