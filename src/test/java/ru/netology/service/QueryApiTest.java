@@ -1,4 +1,5 @@
 package ru.netology.service;
+
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -6,7 +7,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class QueryApiTest {
     @Test
-    void shouldPostDemoAccounts() {
+    void shouldReturnDemoAccounts() {
 
         // Given - When - Then
 // Предусловия
